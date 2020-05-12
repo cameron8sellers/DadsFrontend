@@ -1,11 +1,46 @@
 .cards {
-  background-color: rgb(5, 133, 179);
   padding: 1em;
   margin: 1em;
   display: flex;
+  height: 12em;
 }
 .main_header {
   padding: 5%;
   margin: 0;
   display: flex;
+}
+.landing-headings {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+  display: flex;
+  flex-direction: column-reverse;
+  height: 1em;
+}
+#sleep-card {
+  background-image: url("https://res.cloudinary.com/drcgo7zqn/image/upload/v1589319522/New%20Dads/simon-matzinger-HSy0QXIRafg-unsplash_p8xlxm.jpg");
+  background-size: cover;
+}
+#health-card {
+  background-image: url("https://res.cloudinary.com/drcgo7zqn/image/upload/v1589319521/New%20Dads/anshu-a-7n5_0j7b7Hg-unsplash_ddk6ky.jpg");
+  background-size: cover;
+}
+#home-card {
+  background-image: url("https://res.cloudinary.com/drcgo7zqn/image/upload/v1589318275/New%20Dads/picsea-EQlTyDZRx7U-unsplash_frebsy.jpg");
+  background-size: cover;
+}
+#travel-card {
+  background-image: url("https://res.cloudinary.com/drcgo7zqn/image/upload/v1589318270/New%20Dads/juliane-liebermann-O-RKu3Aqnsw-unsplash_vvv1cy.jpg");
+  background-size: cover;
+}
+#tech-card {
+  background-image: url("https://res.cloudinary.com/drcgo7zqn/image/upload/v1589318559/New%20Dads/jelleke-vanooteghem-chuzevDl4qM-unsplash_q8oblo.jpg");
+  background-size: cover;
+}
+#wish-card {
+  background-image: url("https://res.cloudinary.com/drcgo7zqn/image/upload/v1589321771/New%20Dads/photo-1483546416237-76fd26bbcdd1_mwmygw.jpg");
+  background-size: cover;
+}
+#recipe-card {
+  background-image: url("https://res.cloudinary.com/drcgo7zqn/image/upload/v1589318560/New%20Dads/providence-doucet-5za6niH4qpw-unsplash_y9qh3m.jpg");
+  background-size: cover;
 }

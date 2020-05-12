@@ -1,0 +1,11 @@
+.cards {
+  background-color: rgb(5, 133, 179);
+  padding: 1em;
+  margin: 1em;
+  display: flex;
+}
+.main_header {
+  padding: 5%;
+  margin: 0;
+  display: flex;
+}

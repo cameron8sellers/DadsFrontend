@@ -1,11 +1,61 @@
 .cards {
-  background-color: rgb(5, 133, 179);
   padding: 1em;
-  margin: 1em;
+  margin: 0.6em;
   display: flex;
+  height: 12em;
+  border-radius: 6px 6px 6px 6px;
+  -moz-border-radius: 6px 6px 6px 6px;
+  -webkit-border-radius: 6px 6px 6px 6px;
+  border: 0px solid #000000;
 }
+.cards-container {
+  padding-top: 26%;
+}
+
 .main_header {
-  padding: 5%;
+  font-family: "Didact Gothic", sans-serif;
+  padding: 2%;
   margin: 0;
   display: flex;
+  background-color: rgb(255, 172, 84);
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 999;
+}
+.landing-headings {
+  font-family: "Didact Gothic", sans-serif;
+  font-size: larger;
+  font-weight: 700;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  height: 1em;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 0px solid #000000;
+}
+#sleep-card {
+  background-image: url("https://res.cloudinary.com/drcgo7zqn/image/upload/v1589319522/New%20Dads/simon-matzinger-HSy0QXIRafg-unsplash_p8xlxm.jpg");
+  background-size: cover;
+}
+#health-card {
+  background-image: url("https://res.cloudinary.com/drcgo7zqn/image/upload/v1589319521/New%20Dads/anshu-a-7n5_0j7b7Hg-unsplash_ddk6ky.jpg");
+  background-size: cover;
+}
+#home-card {
+  background-image: url("https://res.cloudinary.com/drcgo7zqn/image/upload/v1589318275/New%20Dads/picsea-EQlTyDZRx7U-unsplash_frebsy.jpg");
+  background-size: cover;
+}
+#travel-card {
+  background-image: url("https://res.cloudinary.com/drcgo7zqn/image/upload/v1589318270/New%20Dads/juliane-liebermann-O-RKu3Aqnsw-unsplash_vvv1cy.jpg");
+  background-size: cover;
+}
+#tech-card {
+  background-image: url("https://res.cloudinary.com/drcgo7zqn/image/upload/v1589318559/New%20Dads/jelleke-vanooteghem-chuzevDl4qM-unsplash_q8oblo.jpg");
+  background-size: cover;
+}
+#recipe-card {
+  background-image: url("https://res.cloudinary.com/drcgo7zqn/image/upload/v1589318560/New%20Dads/providence-doucet-5za6niH4qpw-unsplash_y9qh3m.jpg");
+  background-size: cover;
 }

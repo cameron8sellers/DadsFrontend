@@ -1,12 +1,13 @@
 import React from "react";
-import { Route } from "react-router-dom";
-import LandingPage from "./components/landingPage/landingPage";
+
+import APIdata from "./SeedData/seed";
+import Main from "./main";
 import "./App.css";
 
-function App() {
+function App(props) {
   return (
     <div className="App">
-      <Route exact path="/" component={LandingPage} />
+      <Main tipData={APIdata} />
     </div>
   );
 }

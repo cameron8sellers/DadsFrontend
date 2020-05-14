@@ -14,7 +14,9 @@ const RecipePage = props => {
         <br />
         <div className="tip-card-div">
           <p className="tip-paragraph">Difficulty: {tip.difficulty}</p>
-          <p>{tip.link}</p>
+          <a href={tip.link} target="blank">
+            Link to recipe
+          </a>
         </div>
       </Card>
     );

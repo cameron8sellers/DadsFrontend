@@ -1,6 +1,7 @@
 import React from "react";
 import { Card } from "reactstrap";
 import "../../components/tips.css";
+import Menu from "../slideMenu";
 
 //import { Link, Redirect } from "react-router-dom";
 
@@ -18,7 +19,15 @@ const SleepPage = props => {
     );
   });
 
-  return <div>{sleepTips}</div>;
+  return (
+    <div>
+      <div className="tips_header">
+        <h1 className="title"> New Dad's Tips</h1>
+        <Menu />
+      </div>
+      <div className="cards-container">{sleepTips}</div>
+    </div>
+  );
 };
 
 export default SleepPage;

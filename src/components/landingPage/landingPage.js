@@ -16,21 +16,31 @@ const LandingPage = props => {
             <h1 className="landing-headings">Sleep </h1>
           </Card>
         </a>
-        <Card className="cards" id="health-card">
-          <h1 className="landing-headings">Health </h1>
-        </Card>
-        <Card className="cards" id="home-card">
-          <h1 className="landing-headings">At Home </h1>
-        </Card>
-        <Card className="cards" id="travel-card">
-          <h1 className="landing-headings">Travel</h1>
-        </Card>
-        <Card className="cards" id="tech-card">
-          <h1 className="landing-headings">Helpful Tech</h1>
-        </Card>
-        <Card className="cards" id="recipe-card">
-          <h1 className="landing-headings">Recipes</h1>
-        </Card>
+        <a href="/Health">
+          <Card className="cards" id="health-card">
+            <h1 className="landing-headings">Health </h1>
+          </Card>
+        </a>
+        <a href="/Home_Life">
+          <Card className="cards" id="home-card">
+            <h1 className="landing-headings">At Home </h1>
+          </Card>
+        </a>
+        <a href="/Travel">
+          <Card className="cards" id="travel-card">
+            <h1 className="landing-headings">Travel</h1>
+          </Card>
+        </a>
+        <a href="/Tech">
+          <Card className="cards" id="tech-card">
+            <h1 className="landing-headings">Helpful Tech</h1>
+          </Card>
+        </a>
+        <a href="/Recipes">
+          <Card className="cards" id="recipe-card">
+            <h1 className="landing-headings">Recipes</h1>
+          </Card>
+        </a>
       </div>
     </div>
   );

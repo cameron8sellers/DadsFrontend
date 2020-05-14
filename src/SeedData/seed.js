@@ -47,7 +47,7 @@ const APIdata = {
       directions: "directions",
       time: "",
       difficulty: 1,
-      image: ""
+      link: "link"
     }
   ]
 };

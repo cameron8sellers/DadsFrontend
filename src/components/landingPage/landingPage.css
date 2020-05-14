@@ -59,3 +59,9 @@
   background-image: url("https://res.cloudinary.com/drcgo7zqn/image/upload/v1589318560/New%20Dads/providence-doucet-5za6niH4qpw-unsplash_y9qh3m.jpg");
   background-size: cover;
 }
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}

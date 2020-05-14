@@ -6,7 +6,7 @@
   align-content: flex-start;
   align-items: center;
   justify-items: center;
-  height: 5em;
+  height: auto;
   border-radius: 6px 6px 6px 6px;
   -moz-border-radius: 6px 6px 6px 6px;
   -webkit-border-radius: 6px 6px 6px 6px;

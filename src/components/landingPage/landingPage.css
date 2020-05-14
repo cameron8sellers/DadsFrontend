@@ -1,20 +1,39 @@
 .cards {
   padding: 1em;
-  margin: 1em;
+  margin: 0.6em;
   display: flex;
   height: 12em;
+  border-radius: 6px 6px 6px 6px;
+  -moz-border-radius: 6px 6px 6px 6px;
+  -webkit-border-radius: 6px 6px 6px 6px;
+  border: 0px solid #000000;
 }
+.cards-container {
+  padding-top: 26%;
+}
+
 .main_header {
-  padding: 5%;
+  font-family: "Didact Gothic", sans-serif;
+  padding: 2%;
   margin: 0;
   display: flex;
+  background-color: rgb(255, 172, 84);
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 999;
 }
 .landing-headings {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 5px;
-  display: flex;
-  flex-direction: column-reverse;
+  font-family: "Didact Gothic", sans-serif;
+  font-size: larger;
+  font-weight: 700;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
   height: 1em;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 0px solid #000000;
 }
 #sleep-card {
   background-image: url("https://res.cloudinary.com/drcgo7zqn/image/upload/v1589319522/New%20Dads/simon-matzinger-HSy0QXIRafg-unsplash_p8xlxm.jpg");
@@ -34,10 +53,6 @@
 }
 #tech-card {
   background-image: url("https://res.cloudinary.com/drcgo7zqn/image/upload/v1589318559/New%20Dads/jelleke-vanooteghem-chuzevDl4qM-unsplash_q8oblo.jpg");
-  background-size: cover;
-}
-#wish-card {
-  background-image: url("https://res.cloudinary.com/drcgo7zqn/image/upload/v1589321771/New%20Dads/photo-1483546416237-76fd26bbcdd1_mwmygw.jpg");
   background-size: cover;
 }
 #recipe-card {

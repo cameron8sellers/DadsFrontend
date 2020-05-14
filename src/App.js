@@ -1,20 +1,13 @@
 import React from "react";
-import { Route } from "react-router-dom";
-import LandingPage from "./components/landingPage/landingPage";
-import { library } from "@fortawesome/fontawesome-svg-core";
 
-import {
-  faCheckSquare,
-  faCoffee,
-  faCookieBite
-} from "@fortawesome/free-solid-svg-icons";
+import APIdata from "./SeedData/seed";
+import Main from "./main";
 import "./App.css";
-library.add(faCheckSquare, faCoffee, faCookieBite);
 
-function App() {
+function App(props) {
   return (
     <div className="App">
-      <Route exact path="/" component={LandingPage} />
+      <Main tipData={APIdata} />
     </div>
   );
 }
